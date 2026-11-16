@@ -17,5 +17,5 @@ authors:
 version: 1.0.0
 date-released: 2026-11-17
 license: MIT
-repository-code: "https://github.com/Farhan191091/Reducing-tumor-independent-shortcut-learning-in-brain-tumor-"
+repository-code: "https://github.com/Farhan191091/Reducing-tumor-independent-shortcut-"
 keywords: [brain tumor classification, shortcut learning, MRI, external validation, explainable AI]
