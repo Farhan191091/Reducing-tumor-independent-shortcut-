@@ -7,7 +7,7 @@ Department of Computer Science and Engineering, International University of Busi
 \*Corresponding author: jibon.cse@iubat.edu · Manuscript submitted to *Journal of Neuroscience Methods* (2026)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![DOI](https://img.shields.io/badge/DOI-pending%20Zenodo-lightgrey.svg)](#citation)
+[![DOI]([![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24290734.svg)](https://doi.org/10.5281/zenodo.24290734))
 
 ---
 
