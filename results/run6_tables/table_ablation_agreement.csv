@@ -1,0 +1,7 @@
+Variant,Slices with different label,Patients with different label
+ROI-Mask,32,1
+CTR-Net,32,1
+CNX-Plain,33,1
+MTL-Seg,26,0
+RRR,22,0
+CAM-Guide,31,0

@@ -1,0 +1,9 @@
+Patient,True,Slices,Wrong in models,ROI-Loc predicts,Models wrong
+110116,meningioma,5,8/26,meningioma,"MTK, MTK-noSeq, MTK-noKAN, MTK-noCNN, CNN-Backbone, CNN-Backbone-Wide, ResNet-50, EfficientNet-B0"
+101020,glioma,18,7/26,glioma,"MTK, MTK-noSeq, MTK-noKAN, MTK-noCNN, CNN-Backbone, CNN-Backbone-Wide, EfficientNet-B0"
+112074,pituitary,14,6/26,pituitary,"MTK-noSeq, MTK-noKAN, CNN-Backbone, CNN-Backbone-Wide, EfficientNet-B0, DeiT-Small"
+102648,pituitary,17,2/26,pituitary,"ConvNeXt-Tiny, DeiT-Small"
+106534,meningioma,6,2/26,meningioma,"ROI-m06-Transplant, ROI-Mask"
+100820,glioma,17,10/26,glioma,"CNX-Strip, CTR-noSeg, MTK, MTK-noSeq, MTK-noKAN, MTK-noCNN, CNN-Backbone, CNN-Backbone-Wide, ResNet-50, EfficientNet-B0"
+102929,meningioma,8,10/26,meningioma,"CTR-Net, CTR-noCF, MTK, MTK-noSeq, MTK-noKAN, MTK-noCNN, CNN-Backbone, CNN-Backbone-Wide, ResNet-50, EfficientNet-B0"
+92897,glioma,4,10/26,glioma,"CNX-Plain, MTK, MTK-noSeq, MTK-noKAN, MTK-noCNN, CNN-Backbone, CNN-Backbone-Wide, ResNet-50, EfficientNet-B0, DeiT-Small"

@@ -1,0 +1,9 @@
+Input,CV macro-F1 (%),Test macro-F1 (%)
+"location only
+(6 numbers, no image)",61.18,63.5
+"appearance only
+(ROI-Crop)",94.55,94.98
+"ROI-Loc with location
+knocked out",,94.13
+"both
+(ROI-Loc)",94.89,94.13

@@ -1,0 +1,4 @@
+Information used (no deep model),Balanced acc (%),Legitimate clinical cue?
+Tumour location + size only (from expert outline),63.8,yes
+Viewing plane only (axial / coronal / sagittal),33.3,no
+"Brain outline / position only (Figshare, quick check)",67.0,no

@@ -1,0 +1,6 @@
+Set,Class,n,Dice,Dice_median,Peak_inside
+BraTS (tumour core),glioma,589,0.745,0.825,0.951
+BraTS (tumour core),meningioma,484,0.762,0.889,0.919
+Internal test,glioma,216,0.659,0.805,0.917
+Internal test,meningioma,122,0.879,0.914,0.992
+Internal test,pituitary,141,0.796,0.849,1.0

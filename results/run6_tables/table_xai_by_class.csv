@@ -1,0 +1,64 @@
+Dataset,Class,Model,pointing,energy_in_mask,iou@0.3,chance
+BRISC (dedup),meningioma,CAM-Guide,0.84,0.261,0.353,0.047
+BRISC (dedup),meningioma,CNX-Plain,0.45,0.16,0.196,0.047
+BRISC (dedup),meningioma,CNX-Transplant,0.69,0.297,0.402,0.047
+BRISC (dedup),meningioma,CTR-Net,0.43,0.109,0.143,0.047
+BRISC (dedup),meningioma,CTR-noCF,0.51,0.155,0.221,0.047
+BRISC (dedup),meningioma,MTK,0.19,0.097,0.205,0.047
+BRISC (dedup),meningioma,MTL-Seg,0.36,0.115,0.156,0.047
+BRISC (dedup),meningioma,RRR,0.49,0.146,0.19,0.047
+BRISC (dedup),meningioma,ResNet-50,0.69,0.131,0.281,0.047
+BRISC (dedup),pituitary,CAM-Guide,0.467,0.089,0.189,0.022
+BRISC (dedup),pituitary,CNX-Plain,0.133,0.04,0.062,0.022
+BRISC (dedup),pituitary,CNX-Transplant,0.467,0.108,0.161,0.022
+BRISC (dedup),pituitary,CTR-Net,0.267,0.055,0.095,0.022
+BRISC (dedup),pituitary,CTR-noCF,0.533,0.079,0.249,0.022
+BRISC (dedup),pituitary,MTK,0.267,0.031,0.062,0.022
+BRISC (dedup),pituitary,MTL-Seg,0.333,0.049,0.164,0.022
+BRISC (dedup),pituitary,RRR,0.2,0.048,0.094,0.022
+BRISC (dedup),pituitary,ResNet-50,0.4,0.051,0.095,0.022
+BraTS-GLI,glioma,CAM-Guide,0.647,0.195,0.314,0.022
+BraTS-GLI,glioma,CNX-Plain,0.187,0.078,0.097,0.022
+BraTS-GLI,glioma,CNX-Transplant,0.267,0.09,0.103,0.022
+BraTS-GLI,glioma,CTR-Net,0.76,0.07,0.243,0.022
+BraTS-GLI,glioma,CTR-noCF,0.453,0.115,0.219,0.022
+BraTS-GLI,glioma,MTK,0.22,0.055,0.134,0.022
+BraTS-GLI,glioma,MTL-Seg,0.193,0.072,0.101,0.022
+BraTS-GLI,glioma,RRR,0.533,0.104,0.2,0.022
+BraTS-GLI,glioma,ResNet-50,0.407,0.077,0.116,0.022
+BraTS-MEN,meningioma,CAM-Guide,0.5,0.148,0.275,0.016
+BraTS-MEN,meningioma,CNX-Plain,0.127,0.072,0.112,0.016
+BraTS-MEN,meningioma,CNX-Transplant,0.54,0.127,0.314,0.016
+BraTS-MEN,meningioma,CTR-Net,0.627,0.033,0.109,0.016
+BraTS-MEN,meningioma,CTR-noCF,0.147,0.063,0.088,0.016
+BraTS-MEN,meningioma,MTK,0.213,0.058,0.136,0.016
+BraTS-MEN,meningioma,MTL-Seg,0.113,0.047,0.066,0.016
+BraTS-MEN,meningioma,RRR,0.293,0.051,0.121,0.016
+BraTS-MEN,meningioma,ResNet-50,0.507,0.082,0.154,0.016
+Internal test,glioma,CAM-Guide,0.653,0.192,0.32,0.023
+Internal test,glioma,CNX-Plain,0.181,0.066,0.091,0.023
+Internal test,glioma,CNX-Transplant,0.31,0.095,0.117,0.023
+Internal test,glioma,CTR-Net,0.718,0.059,0.153,0.023
+Internal test,glioma,CTR-noCF,0.597,0.113,0.263,0.023
+Internal test,glioma,MTK,0.065,0.038,0.057,0.023
+Internal test,glioma,MTL-Seg,0.407,0.081,0.171,0.023
+Internal test,glioma,RRR,0.546,0.113,0.21,0.023
+Internal test,glioma,ResNet-50,0.356,0.064,0.111,0.023
+Internal test,meningioma,CAM-Guide,0.664,0.192,0.384,0.018
+Internal test,meningioma,CNX-Plain,0.115,0.063,0.098,0.018
+Internal test,meningioma,CNX-Transplant,0.418,0.148,0.338,0.018
+Internal test,meningioma,CTR-Net,0.41,0.033,0.084,0.018
+Internal test,meningioma,CTR-noCF,0.287,0.079,0.178,0.018
+Internal test,meningioma,MTK,0.197,0.054,0.143,0.018
+Internal test,meningioma,MTL-Seg,0.197,0.052,0.099,0.018
+Internal test,meningioma,RRR,0.475,0.079,0.228,0.018
+Internal test,meningioma,ResNet-50,0.697,0.077,0.17,0.018
+Internal test,pituitary,CAM-Guide,0.326,0.048,0.208,0.008
+Internal test,pituitary,CNX-Plain,0.106,0.017,0.069,0.008
+Internal test,pituitary,CNX-Transplant,0.092,0.039,0.1,0.008
+Internal test,pituitary,CTR-Net,0.496,0.029,0.081,0.008
+Internal test,pituitary,CTR-noCF,0.362,0.041,0.191,0.008
+Internal test,pituitary,MTK,0.014,0.008,0.007,0.008
+Internal test,pituitary,MTL-Seg,0.177,0.023,0.113,0.008
+Internal test,pituitary,RRR,0.121,0.019,0.068,0.008
+Internal test,pituitary,ResNet-50,0.085,0.016,0.023,0.008

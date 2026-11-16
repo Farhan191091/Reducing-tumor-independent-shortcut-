@@ -1,0 +1,7 @@
+Level,Class,n,Precision (%),Recall (%),AUC
+Image,glioma,216,96.6,92.1,0.984
+Image,meningioma,122,89.8,93.4,0.9859
+Image,pituitary,141,95.2,97.9,0.9987
+Patient,glioma,14,100.0,100.0,1.0
+Patient,meningioma,12,100.0,100.0,1.0
+Patient,pituitary,9,100.0,100.0,1.0

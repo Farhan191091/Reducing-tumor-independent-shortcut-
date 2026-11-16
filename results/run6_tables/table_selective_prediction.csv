@@ -1,0 +1,22 @@
+Set,Model,AURC (%),Error when answering 80% (%)
+Internal test,ROI-Loc,2.22,2.3
+Internal test,ROI-m06-Transplant,2.51,2.1
+Internal test,ROI-Crop-m06,1.7,1.3
+Internal test,CNX-Transplant,2.51,1.8
+Internal test,CNX-Plain,1.78,1.8
+Internal test,CTR-Net,1.99,2.1
+Internal test,MTL-Seg,2.0,2.1
+BraTS,ROI-Loc,3.84,5.0
+BraTS,ROI-m06-Transplant,2.91,4.2
+BraTS,ROI-Crop-m06,2.55,4.1
+BraTS,CNX-Transplant,3.55,5.0
+BraTS,CNX-Plain,8.54,11.3
+BraTS,CTR-Net,8.24,10.0
+BraTS,MTL-Seg,6.31,9.3
+BDNeuro (unique),ROI-Loc,0.76,0.6
+BDNeuro (unique),ROI-m06-Transplant,0.37,0.6
+BDNeuro (unique),ROI-Crop-m06,1.45,1.1
+BDNeuro (unique),CNX-Transplant,1.63,2.2
+BDNeuro (unique),CNX-Plain,2.83,2.8
+BDNeuro (unique),CTR-Net,1.64,2.8
+BDNeuro (unique),MTL-Seg,0.63,0.6

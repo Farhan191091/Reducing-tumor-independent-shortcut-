@@ -1,0 +1,16 @@
+ID,Experiment,Success if ...,Result,Measured
+S1a,ROI-Loc,CV macro-F1 >= 96.0% (wins back the accuracy ROI-Crop lost),✘,CV macro-F1 94.89%
+S1b,ROI-Loc,tumour reliance >= 0.60 AND skull/position-only <= 36% (shortcut stays removed),✔,"reliance 0.69, skull/position-only 33.6%"
+S1c,ROI-Loc,BraTS glioma-vs-meningioma AUC >= ROI-Crop - 0.01 (generalisation kept),✔,BraTS AUC 0.9675 vs ROI-Crop 0.9647
+S2a,CNX-Transplant,tumour reliance >= 0.50 (CNX-Plain: 0.35) with the swap test,✔,reliance (swap) 0.58
+S2b,CNX-Transplant,tumour reliance >= 0.45 with the SECOND hiding method (tissue from another patient),✔,reliance (other patient) 0.57
+S2c,CNX-Transplant,CV macro-F1 >= 95.0% and pituitary still-correct-when-hidden < 80% (CNX-Plain: 98.7%),✘,"CV macro-F1 94.80%, pituitary when hidden 68.4%"
+S3,CNX-Strip,if BraTS AUC of CNX-Strip < ROI-Crop - 0.02 -> ROI's BraTS gain is NOT explained by the skull,✔,CNX-Strip 0.9173 vs ROI-Crop 0.9647 vs CNX-Plain 0.9238
+S4a,Shortcut alarm,"on BraTS, alarm-based ranking has lower AURC than confidence alone (CNX-Plain)",✔,AURC alarm 8.38 vs confidence 8.54 (%)
+S4b,Shortcut alarm,separates tumour slices from tumour-free slices with AUROC >= 0.75 (CNX-Plain),✔,AUROC 0.831 (confidence alone: 0.752)
+S5,Metric check,"model ranking by reliance is stable: Spearman(swap, other-patient) >= 0.80",✔,Spearman 1.00
+S6a,ROI-m06-Transplant,CV macro-F1 >= 96.0% (context brings the accuracy back),✘,CV macro-F1 92.07%
+S6b,ROI-m06-Transplant,tumour reliance >= 0.60 (the extra context does not become a shortcut),✔,reliance 0.68
+S6c,ROI-m06-Transplant,BraTS AUC >= ROI-Crop - 0.01,✔,BraTS AUC 0.9713 vs ROI-Crop 0.9647
+S7,XAI (ROI-Loc),share of heat inside the tumour >= 2x what a random map gets inside the same crop,✘,heat in tumour 35.1% vs chance in crop 19.4% (ratio 1.82)
+S8,XAI faithfulness,deleting ROI-Loc's red pixels lowers its confidence faster than deleting random pixels,✘,"faithfulness gap 0.006 [-0.135, 0.109]"

@@ -1,0 +1,16 @@
+Model,Class,w_cnn,w_seq,w_kan
+CTR-MambaKAN,glioma,0.146,0.827,0.028
+CTR-MambaKAN,meningioma,0.147,0.815,0.038
+CTR-MambaKAN,pituitary,0.069,0.904,0.027
+MTK,glioma,0.08,0.896,0.023
+MTK,meningioma,0.119,0.834,0.047
+MTK,pituitary,0.039,0.945,0.016
+MTK-noSeq,glioma,0.962,,0.038
+MTK-noSeq,meningioma,0.966,,0.034
+MTK-noSeq,pituitary,0.95,,0.05
+MTK-noKAN,glioma,0.29,0.71,
+MTK-noKAN,meningioma,0.093,0.907,
+MTK-noKAN,pituitary,0.263,0.737,
+MTK-noCNN,glioma,,0.959,0.041
+MTK-noCNN,meningioma,,0.942,0.058
+MTK-noCNN,pituitary,,0.973,0.027

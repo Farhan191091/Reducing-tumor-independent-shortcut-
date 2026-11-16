@@ -1,0 +1,14 @@
+{
+  "title": "Reducing tumor independent shortcut learning in brain tumor MRI classification: code, predictions and audit files",
+  "upload_type": "software",
+  "description": "Code, Kaggle notebooks, saved model predictions, statistical analysis scripts, figure scripts and data audit files (patient split, near duplicate audit and lists of evaluated external images) for the manuscript 'Reducing tumor independent shortcut learning in brain tumor MRI classification: input restriction and tumor transplantation with external validation'. Image data are not redistributed; they are available from their original public sources.",
+  "creators": [
+    {"name": "Shahriar, Farhan", "affiliation": "International University of Business Agriculture and Technology (IUBAT)"},
+    {"name": "Rhidi, Raufu Umme", "affiliation": "International University of Business Agriculture and Technology (IUBAT)"},
+    {"name": "Jibon, Ferdaus Anam", "affiliation": "International University of Business Agriculture and Technology (IUBAT)"},
+    {"name": "Haque, Obaidul", "affiliation": "International University of Business Agriculture and Technology (IUBAT)"}
+  ],
+  "license": "MIT",
+  "keywords": ["brain tumor classification", "shortcut learning", "MRI", "external validation", "explainable AI"],
+  "access_right": "open"
+}

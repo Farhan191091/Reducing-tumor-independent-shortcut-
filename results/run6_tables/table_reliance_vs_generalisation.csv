@@ -1,0 +1,13 @@
+External set,Spearman rho,p,models,Models
+BraTS AUC (glioma vs meningioma),0.896,0.0,26.0,all
+BDNeuro balanced accuracy (%),0.56,0.0029,26.0,all
+BraTS AUC (glioma vs meningioma),0.821,0.0,,only pretrained (20)
+BraTS AUC (glioma vs meningioma),0.736,0.0956,,only scratch (6)
+BraTS AUC (glioma vs meningioma),0.838,0.0,,"all, controlling for pretrained vs scratch (26)"
+BraTS AUC (glioma vs meningioma),0.503,0.0958,,pretrained WITHOUT ROI / Run-5 models (12)
+BraTS AUC (glioma vs meningioma),-0.118,0.7631,,"ConvNeXt backbone only, WITHOUT ROI / Run-5 models (9)"
+BDNeuro balanced accuracy (%),0.126,0.5958,,only pretrained (20)
+BDNeuro balanced accuracy (%),0.853,0.0307,,only scratch (6)
+BDNeuro balanced accuracy (%),0.24,0.2373,,"all, controlling for pretrained vs scratch (26)"
+BDNeuro balanced accuracy (%),0.528,0.0775,,pretrained WITHOUT ROI / Run-5 models (12)
+BDNeuro balanced accuracy (%),-0.072,0.8545,,"ConvNeXt backbone only, WITHOUT ROI / Run-5 models (9)"

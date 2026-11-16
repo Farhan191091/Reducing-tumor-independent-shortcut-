@@ -1,0 +1,4 @@
+Model,Source predictable from features (%),Tumour type predictable (%),"Chance (source, %)"
+CNX-Plain,78.2,92.9,28.1
+CTR-Net,75.6,93.0,28.1
+MTK,74.8,82.3,28.1

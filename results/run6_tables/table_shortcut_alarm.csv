@@ -1,0 +1,25 @@
+Model,Set,AURC conf (%),AURC drop (%),AURC combo (%),Answered by alarm rule (%),Accuracy of answered (%),Accuracy of all (%),AUROC conf,AUROC drop,AUROC combo,Tumour-free answered by alarm rule (%),Tumour-free confident >= 0.85 (%)
+CNX-Plain,Internal test,1.78,7.61,4.98,30.7,89.1,94.8,,,,,
+CNX-Plain,BraTS,8.54,9.02,8.38,49.2,89.4,84.2,,,,,
+CNX-Plain,BDNeuro (unique),2.83,16.34,9.87,35.7,79.0,89.9,,,,,
+CNX-Plain,BraTS tumour vs tumour-free,,,,,,,0.752,0.83,0.831,2.9,56.2
+CNX-Transplant,Internal test,2.51,8.72,4.86,52.0,90.8,92.7,,,,,
+CNX-Transplant,BraTS,3.55,7.63,4.67,54.6,92.8,89.1,,,,,
+CNX-Transplant,BDNeuro (unique),1.63,5.38,2.95,57.7,94.7,96.5,,,,,
+CNX-Transplant,BraTS tumour vs tumour-free,,,,,,,0.774,0.854,0.832,5.9,38.2
+CTR-Net,Internal test,1.99,5.3,3.88,34.9,92.8,94.8,,,,,
+CTR-Net,BraTS,8.24,6.82,5.98,69.4,93.4,85.2,,,,,
+CTR-Net,BDNeuro (unique),1.64,11.89,5.53,50.7,87.8,91.6,,,,,
+CTR-Net,BraTS tumour vs tumour-free,,,,,,,0.924,0.91,0.938,2.9,3.3
+MTL-Seg,Internal test,2.0,5.04,3.39,28.8,93.5,96.2,,,,,
+MTL-Seg,BraTS,6.31,5.47,4.95,57.7,94.3,86.2,,,,,
+MTL-Seg,BDNeuro (unique),0.63,9.32,5.12,36.6,88.0,92.5,,,,,
+MTL-Seg,BraTS tumour vs tumour-free,,,,,,,0.832,0.864,0.893,3.5,26.0
+CAM-Guide,Internal test,2.06,6.29,4.0,29.4,91.5,94.4,,,,,
+CAM-Guide,BraTS,7.99,7.31,7.02,48.4,92.3,85.0,,,,,
+CAM-Guide,BDNeuro (unique),0.95,10.61,6.58,33.5,84.2,93.0,,,,,
+CAM-Guide,BraTS tumour vs tumour-free,,,,,,,0.802,0.811,0.872,2.9,47.5
+ConvNeXt-Tiny,Internal test,1.78,5.76,3.19,29.4,93.6,93.9,,,,,
+ConvNeXt-Tiny,BraTS,8.1,8.86,8.34,45.3,90.9,84.4,,,,,
+ConvNeXt-Tiny,BDNeuro (unique),1.09,14.17,8.37,34.8,81.0,89.9,,,,,
+ConvNeXt-Tiny,BraTS tumour vs tumour-free,,,,,,,0.737,0.785,0.815,2.6,55.7

@@ -1,0 +1,5 @@
+label4,n,width,height,ext,kB
+glioma,1426,512.0,512.0,.png,85.4
+meningioma,708,512.0,512.0,.png,91.4
+notumor,1495,224.0,224.0,.jpg,15.1
+pituitary,930,512.0,512.0,.png,111.6

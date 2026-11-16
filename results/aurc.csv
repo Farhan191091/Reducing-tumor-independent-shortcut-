@@ -1,0 +1,18 @@
+model,aurc_test,aurc_brats
+Baseline,1.78,8.54
+ResNet-50,4.4,18.46
+EfficientNet-B0,3.48,19.44
+ConvNeXt-T (standard head),1.78,8.1
+DeiT-S,3.52,12.57
+MTL-Seg,2.0,6.31
+RRR,1.04,5.7
+CAM-Guide,2.06,7.99
+CTR-Net,1.99,8.24
+ROI-0.2,3.02,4.11
+ROI-0.6,1.7,2.55
+ROI-1.5,0.99,3.15
+ROI-Mask,2.08,8.74
+ROI-Loc,2.22,3.84
+TT,2.51,3.55
+ROI-0.6+TT,2.51,2.91
+Baseline-Strip,1.57,7.48

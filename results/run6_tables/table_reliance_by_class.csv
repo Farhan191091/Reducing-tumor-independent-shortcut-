@@ -1,0 +1,27 @@
+Model,glioma still correct (%),meningioma still correct (%),pituitary still correct (%),abstained when hidden (%)
+ROI-Loc,71.9,27.3,29.1,26.3
+CNX-Transplant,92.5,15.7,68.4,0.0
+CNX-Strip,95.4,38.0,98.2,0.0
+ROI-Crop-m06,71.2,30.6,53.2,26.3
+ROI-Crop-m15,71.9,28.0,66.7,26.3
+ROI-m06-Transplant,68.7,20.8,39.0,26.3
+ROI-Crop,70.1,27.7,40.4,26.3
+ROI-Mask,71.2,8.1,24.9,26.3
+CTR-Net,91.8,48.7,99.0,0.0
+CTR-noCF,95.1,40.1,98.0,0.0
+CTR-noSeg,93.4,42.2,98.5,0.0
+CNX-Plain,95.9,29.8,98.7,0.0
+MTL-Seg,91.4,55.6,98.9,0.0
+RRR,93.8,42.8,97.3,0.0
+CAM-Guide,94.7,43.1,98.0,0.0
+CTR-MambaKAN,95.7,36.0,97.4,0.0
+MTK,91.5,49.7,98.3,0.0
+MTK-noSeq,89.8,60.7,97.1,0.0
+MTK-noKAN,90.8,51.6,99.0,0.0
+MTK-noCNN,89.8,56.2,98.9,0.0
+CNN-Backbone,91.4,52.4,97.1,0.0
+CNN-Backbone-Wide,88.8,57.1,97.8,0.0
+ResNet-50,88.1,66.2,98.0,0.0
+EfficientNet-B0,89.2,71.6,96.9,0.0
+ConvNeXt-Tiny,94.2,42.2,98.1,0.0
+DeiT-Small,93.0,51.6,97.2,0.0

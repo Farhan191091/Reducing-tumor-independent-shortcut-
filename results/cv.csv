@@ -1,0 +1,18 @@
+model,run6,seeds,cv_f1_mean,cv_f1_sd
+Baseline,CNX-Plain,3,97.1445,2.1628
+ResNet-50,ResNet-50,1,93.7848,2.2456
+EfficientNet-B0,EfficientNet-B0,1,94.3436,2.7385
+ConvNeXt-T (standard head),ConvNeXt-Tiny,1,97.3572,2.1176
+DeiT-S,DeiT-Small,1,96.0292,3.0918
+MTL-Seg,MTL-Seg,1,97.1505,2.423
+RRR,RRR,1,97.4593,2.2147
+CAM-Guide,CAM-Guide,1,97.4208,2.3377
+CTR-Net,CTR-Net,3,97.4073,2.391
+ROI-0.2,ROI-Crop,3,93.7851,1.3221
+ROI-0.6,ROI-Crop-m06,3,94.5576,1.4945
+ROI-1.5,ROI-Crop-m15,1,94.4509,1.8131
+ROI-Mask,ROI-Mask,1,87.3217,5.2786
+ROI-Loc,ROI-Loc,3,94.1361,1.7774
+TT,CNX-Transplant,3,94.8017,1.1564
+ROI-0.6+TT,ROI-m06-Transplant,3,92.0733,1.3767
+Baseline-Strip,CNX-Strip,1,96.5931,2.1726

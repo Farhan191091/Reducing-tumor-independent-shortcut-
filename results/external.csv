@@ -1,0 +1,35 @@
+model,set,n,ba,f1
+Baseline,bdneuro,227,92.8972,89.0203
+ResNet-50,bdneuro,227,91.2146,87.6014
+EfficientNet-B0,bdneuro,227,90.1979,84.8962
+ConvNeXt-T (standard head),bdneuro,227,93.3577,89.1598
+DeiT-S,bdneuro,227,92.3997,88.0413
+MTL-Seg,bdneuro,227,95.5594,92.3988
+RRR,bdneuro,227,95.5594,92.3868
+CAM-Guide,bdneuro,227,94.8873,92.4215
+CTR-Net,bdneuro,227,94.3527,90.8943
+ROI-0.2,bdneuro,227,91.332,89.9858
+ROI-0.6,bdneuro,227,94.2213,93.4547
+ROI-1.5,bdneuro,227,94.025,93.2429
+ROI-Mask,bdneuro,227,91.7894,91.4032
+ROI-Loc,bdneuro,227,93.285,92.9039
+TT,bdneuro,227,97.7828,96.4803
+ROI-0.6+TT,bdneuro,227,94.4238,93.5816
+Baseline-Strip,bdneuro,227,85.7588,83.106
+Baseline,mendeley,1108,92.1635,89.7334
+ResNet-50,mendeley,1108,87.3797,84.9889
+EfficientNet-B0,mendeley,1108,86.9383,83.9234
+ConvNeXt-T (standard head),mendeley,1108,92.8149,90.4236
+DeiT-S,mendeley,1108,90.5158,88.0799
+MTL-Seg,mendeley,1108,92.4745,90.0814
+RRR,mendeley,1108,91.9192,89.4461
+CAM-Guide,mendeley,1108,92.3259,90.0841
+CTR-Net,mendeley,1108,93.3704,91.0963
+ROI-0.2,mendeley,1108,89.26,87.5268
+ROI-0.6,mendeley,1108,90.7664,88.7833
+ROI-1.5,mendeley,1108,92.189,90.2682
+ROI-Mask,mendeley,1108,86.6095,85.5478
+ROI-Loc,mendeley,1108,89.4141,87.6375
+TT,mendeley,1108,87.64,85.4232
+ROI-0.6+TT,mendeley,1108,90.6499,88.8481
+Baseline-Strip,mendeley,1108,86.1266,83.9176

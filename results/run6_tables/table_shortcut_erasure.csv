@@ -1,0 +1,13 @@
+Input,True class,n,Predicted no-tumour (%),Correct (%)
+original,glioma,216,0.0,87.5
+original,meningioma,122,0.0,86.9
+original,pituitary,141,0.0,93.6
+original,notumor,234,94.4,94.4
+brain erased,glioma,216,0.0,100.0
+brain erased,meningioma,122,0.0,0.0
+brain erased,pituitary,141,0.0,0.0
+brain erased,notumor,234,0.0,0.0
+brain only,glioma,216,0.0,89.4
+brain only,meningioma,122,0.0,84.4
+brain only,pituitary,141,0.0,95.0
+brain only,notumor,234,98.7,98.7

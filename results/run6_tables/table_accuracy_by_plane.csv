@@ -1,0 +1,17 @@
+Model,Version,axial,coronal,sagittal
+ROI-Loc,original,93.9,94.5,91.7
+ROI-Loc,hidden (swap),47.8,57.4,48.7
+ROI-m06-Transplant,original,92.4,92.6,90.8
+ROI-m06-Transplant,hidden (swap),48.1,56.3,49.5
+ROI-Crop,original,93.0,94.3,92.8
+ROI-Crop,hidden (swap),50.8,61.5,52.2
+CNX-Transplant,original,94.2,95.1,94.5
+CNX-Transplant,hidden (swap),53.4,62.3,59.7
+CNX-Plain,original,96.2,97.5,96.5
+CNX-Plain,hidden (swap),72.8,75.3,75.2
+CTR-Net,original,97.2,96.4,96.8
+CTR-Net,hidden (swap),82.3,79.5,78.0
+MTL-Seg,original,96.4,97.2,97.2
+MTL-Seg,hidden (swap),81.4,82.2,81.8
+MTK,original,93.1,94.0,92.7
+MTK,hidden (swap),79.7,79.2,80.5

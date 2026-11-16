@@ -1,0 +1,157 @@
+Model,alpha,Set,n,Coverage (%),Target (%),Answered (1 label) (%),Accuracy of answers (%),Referred (%)
+ROI-Loc,0.05,Internal test,479,97.3,95,91.4,97.0,8.6
+ROI-Loc,0.05,BraTS,1073,91.9,95,87.0,92.1,13.0
+ROI-Loc,0.05,BDNeuro (unique),227,97.4,95,89.0,97.5,11.0
+ROI-Loc,0.1,Internal test,479,95.8,90,96.0,96.3,4.0
+ROI-Loc,0.1,BraTS,1073,86.5,90,91.9,89.5,8.1
+ROI-Loc,0.1,BDNeuro (unique),227,93.4,90,92.5,95.2,7.5
+CNX-Transplant,0.05,Internal test,479,95.2,95,93.9,95.3,6.1
+CNX-Transplant,0.05,BraTS,1073,90.7,95,93.3,90.3,6.7
+CNX-Transplant,0.05,BDNeuro (unique),227,96.0,95,93.0,95.7,7.0
+CNX-Transplant,0.1,Internal test,479,92.7,90,95.8,93.9,4.2
+CNX-Transplant,0.1,BraTS,1073,85.8,90,90.3,91.2,9.7
+CNX-Transplant,0.1,BDNeuro (unique),227,89.0,90,90.7,94.7,9.3
+CNX-Strip,0.05,Internal test,479,95.2,95,94.2,95.8,5.8
+CNX-Strip,0.05,BraTS,1073,86.0,95,95.4,86.2,4.6
+CNX-Strip,0.05,BDNeuro (unique),227,79.3,95,85.0,90.2,15.0
+CNX-Strip,0.1,Internal test,479,93.7,90,93.5,96.7,6.5
+CNX-Strip,0.1,BraTS,1073,83.1,90,94.4,87.0,5.6
+CNX-Strip,0.1,BDNeuro (unique),227,72.7,90,77.1,92.6,22.9
+ROI-Crop-m06,0.05,Internal test,479,96.9,95,95.0,96.9,5.0
+ROI-Crop-m06,0.05,BraTS,1073,92.5,95,86.8,93.1,13.2
+ROI-Crop-m06,0.05,BDNeuro (unique),227,97.4,95,92.5,97.1,7.5
+ROI-Crop-m06,0.1,Internal test,479,95.4,90,96.9,96.8,3.1
+ROI-Crop-m06,0.1,BraTS,1073,88.2,90,91.1,91.1,8.9
+ROI-Crop-m06,0.1,BDNeuro (unique),227,92.5,90,93.4,95.3,6.6
+ROI-Crop-m15,0.05,Internal test,479,97.9,95,94.2,98.0,5.8
+ROI-Crop-m15,0.05,BraTS,1073,92.0,95,90.1,91.9,9.9
+ROI-Crop-m15,0.05,BDNeuro (unique),227,98.2,95,93.4,98.1,6.6
+ROI-Crop-m15,0.1,Internal test,479,95.6,90,95.6,97.6,4.4
+ROI-Crop-m15,0.1,BraTS,1073,86.1,90,93.4,89.6,6.6
+ROI-Crop-m15,0.1,BDNeuro (unique),227,94.3,90,93.0,97.6,7.0
+ROI-m06-Transplant,0.05,Internal test,479,96.0,95,85.0,96.6,15.0
+ROI-m06-Transplant,0.05,BraTS,1073,94.8,95,83.0,94.8,17.0
+ROI-m06-Transplant,0.05,BDNeuro (unique),227,98.7,95,84.6,99.0,15.4
+ROI-m06-Transplant,0.1,Internal test,479,91.6,90,92.5,93.9,7.5
+ROI-m06-Transplant,0.1,BraTS,1073,88.2,90,91.8,91.9,8.2
+ROI-m06-Transplant,0.1,BDNeuro (unique),227,95.2,90,91.2,97.1,8.8
+ROI-Crop,0.05,Internal test,479,96.9,95,89.6,96.5,10.4
+ROI-Crop,0.05,BraTS,1073,92.8,95,82.8,92.6,17.2
+ROI-Crop,0.05,BDNeuro (unique),227,96.0,95,87.7,96.0,12.3
+ROI-Crop,0.1,Internal test,479,95.0,90,95.2,95.8,4.8
+ROI-Crop,0.1,BraTS,1073,85.6,90,89.6,89.3,10.4
+ROI-Crop,0.1,BDNeuro (unique),227,93.8,90,91.2,94.7,8.8
+ROI-Mask,0.05,Internal test,479,97.3,95,64.5,97.1,35.5
+ROI-Mask,0.05,BraTS,1073,93.1,95,57.9,91.5,42.1
+ROI-Mask,0.05,BDNeuro (unique),227,98.2,95,58.1,97.7,41.9
+ROI-Mask,0.1,Internal test,479,94.4,90,86.8,94.2,13.2
+ROI-Mask,0.1,BraTS,1073,86.7,90,78.6,87.1,21.4
+ROI-Mask,0.1,BDNeuro (unique),227,97.4,90,86.8,97.0,13.2
+CTR-Net,0.05,Internal test,479,96.2,95,91.0,96.8,9.0
+CTR-Net,0.05,BraTS,1073,86.4,95,90.2,86.8,9.8
+CTR-Net,0.05,BDNeuro (unique),227,93.8,95,90.7,95.1,9.3
+CTR-Net,0.1,Internal test,479,92.7,90,89.6,97.4,10.4
+CTR-Net,0.1,BraTS,1073,77.2,90,87.3,85.8,12.7
+CTR-Net,0.1,BDNeuro (unique),227,86.3,90,87.7,94.0,12.3
+CTR-noCF,0.05,Internal test,479,97.1,95,95.4,97.4,4.6
+CTR-noCF,0.05,BraTS,1073,75.6,95,84.9,87.0,15.1
+CTR-noCF,0.05,BDNeuro (unique),227,88.5,95,89.4,94.6,10.6
+CTR-noCF,0.1,Internal test,479,93.9,90,92.9,97.3,7.1
+CTR-noCF,0.1,BraTS,1073,65.2,90,75.5,85.7,24.5
+CTR-noCF,0.1,BDNeuro (unique),227,78.4,90,81.1,92.9,18.9
+CTR-noSeg,0.05,Internal test,479,95.2,95,96.5,95.9,3.5
+CTR-noSeg,0.05,BraTS,1073,84.9,95,94.9,86.9,5.1
+CTR-noSeg,0.05,BDNeuro (unique),227,89.4,95,93.8,93.4,6.2
+CTR-noSeg,0.1,Internal test,479,91.4,90,93.9,95.8,6.1
+CTR-noSeg,0.1,BraTS,1073,81.0,90,92.2,86.9,7.8
+CTR-noSeg,0.1,BDNeuro (unique),227,82.4,90,87.2,93.4,12.8
+CNX-Plain,0.05,Internal test,479,94.2,95,94.8,96.0,5.2
+CNX-Plain,0.05,BraTS,1073,80.3,95,92.2,85.0,7.8
+CNX-Plain,0.05,BDNeuro (unique),227,84.6,95,90.3,91.7,9.7
+CNX-Plain,0.1,Internal test,479,92.1,90,93.1,96.4,6.9
+CNX-Plain,0.1,BraTS,1073,70.9,90,83.3,84.6,16.7
+CNX-Plain,0.1,BDNeuro (unique),227,78.0,90,83.7,91.6,16.3
+MTL-Seg,0.05,Internal test,479,96.5,95,97.3,96.8,2.7
+MTL-Seg,0.05,BraTS,1073,84.8,95,92.3,87.2,7.7
+MTL-Seg,0.05,BDNeuro (unique),227,89.0,95,92.5,94.3,7.5
+MTL-Seg,0.1,Internal test,479,94.2,90,95.6,96.7,4.4
+MTL-Seg,0.1,BraTS,1073,79.2,90,88.9,86.6,11.1
+MTL-Seg,0.1,BDNeuro (unique),227,79.3,90,82.4,94.1,17.6
+RRR,0.05,Internal test,479,97.5,95,94.2,97.6,5.8
+RRR,0.05,BraTS,1073,88.4,95,90.3,88.4,9.7
+RRR,0.05,BDNeuro (unique),227,91.2,95,91.2,94.7,8.8
+RRR,0.1,Internal test,479,96.7,90,96.2,96.7,3.8
+RRR,0.1,BraTS,1073,87.0,90,91.7,87.9,8.3
+RRR,0.1,BDNeuro (unique),227,83.7,90,85.0,93.3,15.0
+CAM-Guide,0.05,Internal test,479,95.8,95,97.5,96.8,2.5
+CAM-Guide,0.05,BraTS,1073,84.7,95,94.5,86.9,5.5
+CAM-Guide,0.05,BDNeuro (unique),227,91.2,95,92.1,95.7,7.9
+CAM-Guide,0.1,Internal test,479,94.6,90,97.5,96.4,2.5
+CAM-Guide,0.1,BraTS,1073,81.5,90,92.4,86.5,7.6
+CAM-Guide,0.1,BDNeuro (unique),227,84.1,90,84.6,95.8,15.4
+CTR-MambaKAN,0.05,Internal test,479,97.5,95,95.8,98.0,4.2
+CTR-MambaKAN,0.05,BraTS,1073,87.3,95,94.2,87.4,5.8
+CTR-MambaKAN,0.05,BDNeuro (unique),227,94.7,95,91.2,97.6,8.8
+CTR-MambaKAN,0.1,Internal test,479,96.0,90,96.9,97.4,3.1
+CTR-MambaKAN,0.1,BraTS,1073,82.8,90,91.7,88.9,8.3
+CTR-MambaKAN,0.1,BDNeuro (unique),227,92.1,90,90.3,97.6,9.7
+MTK,0.05,Internal test,479,91.4,95,94.2,90.9,5.8
+MTK,0.05,BraTS,1073,80.7,95,79.9,75.8,20.1
+MTK,0.05,BDNeuro (unique),227,81.5,95,86.3,81.1,13.7
+MTK,0.1,Internal test,479,83.7,90,91.9,90.7,8.1
+MTK,0.1,BraTS,1073,68.3,90,89.7,72.2,10.3
+MTK,0.1,BDNeuro (unique),227,69.6,90,81.9,83.9,18.1
+MTK-noSeq,0.05,Internal test,479,93.1,95,85.4,92.2,14.6
+MTK-noSeq,0.05,BraTS,1073,77.3,95,77.4,71.4,22.6
+MTK-noSeq,0.05,BDNeuro (unique),227,87.2,95,77.5,86.9,22.5
+MTK-noSeq,0.1,Internal test,479,86.2,90,95.8,88.7,4.2
+MTK-noSeq,0.1,BraTS,1073,68.6,90,92.5,70.1,7.5
+MTK-noSeq,0.1,BDNeuro (unique),227,77.1,90,90.7,82.5,9.3
+MTK-noKAN,0.05,Internal test,479,93.5,95,93.1,93.0,6.9
+MTK-noKAN,0.05,BraTS,1073,77.7,95,85.6,74.0,14.4
+MTK-noKAN,0.05,BDNeuro (unique),227,84.6,95,87.7,84.4,12.3
+MTK-noKAN,0.1,Internal test,479,86.6,90,94.8,91.2,5.2
+MTK-noKAN,0.1,BraTS,1073,65.2,90,89.2,72.2,10.8
+MTK-noKAN,0.1,BDNeuro (unique),227,73.6,90,85.9,85.6,14.1
+MTK-noCNN,0.05,Internal test,479,92.7,95,90.2,92.6,9.8
+MTK-noCNN,0.05,BraTS,1073,82.0,95,76.0,76.3,24.0
+MTK-noCNN,0.05,BDNeuro (unique),227,81.9,95,86.8,80.2,13.2
+MTK-noCNN,0.1,Internal test,479,85.0,90,92.1,91.4,7.9
+MTK-noCNN,0.1,BraTS,1073,70.3,90,93.2,71.2,6.8
+MTK-noCNN,0.1,BDNeuro (unique),227,69.6,90,86.8,79.7,13.2
+CNN-Backbone,0.05,Internal test,479,91.0,95,92.1,90.2,7.9
+CNN-Backbone,0.05,BraTS,1073,81.9,95,81.3,78.0,18.7
+CNN-Backbone,0.05,BDNeuro (unique),227,87.7,95,82.8,87.8,17.2
+CNN-Backbone,0.1,Internal test,479,85.0,90,96.2,88.3,3.8
+CNN-Backbone,0.1,BraTS,1073,73.5,90,92.3,75.4,7.7
+CNN-Backbone,0.1,BDNeuro (unique),227,78.0,90,85.5,87.1,14.5
+CNN-Backbone-Wide,0.05,Internal test,479,92.9,95,88.9,92.3,11.1
+CNN-Backbone-Wide,0.05,BraTS,1073,80.2,95,77.9,74.6,22.1
+CNN-Backbone-Wide,0.05,BDNeuro (unique),227,87.2,95,79.3,87.2,20.7
+CNN-Backbone-Wide,0.1,Internal test,479,87.3,90,95.4,89.1,4.6
+CNN-Backbone-Wide,0.1,BraTS,1073,72.5,90,89.4,70.3,10.6
+CNN-Backbone-Wide,0.1,BDNeuro (unique),227,77.1,90,88.5,83.6,11.5
+ResNet-50,0.05,Internal test,479,93.7,95,92.7,93.2,7.3
+ResNet-50,0.05,BraTS,1073,82.6,95,88.8,80.4,11.2
+ResNet-50,0.05,BDNeuro (unique),227,90.7,95,91.2,92.3,8.8
+ResNet-50,0.1,Internal test,479,87.5,90,94.2,92.0,5.8
+ResNet-50,0.1,BraTS,1073,68.8,90,85.6,79.7,14.4
+ResNet-50,0.1,BDNeuro (unique),227,78.9,90,84.6,92.2,15.4
+EfficientNet-B0,0.05,Internal test,479,89.8,95,94.6,89.4,5.4
+EfficientNet-B0,0.05,BraTS,1073,78.9,95,83.7,74.9,16.3
+EfficientNet-B0,0.05,BDNeuro (unique),227,87.7,95,93.0,87.7,7.0
+EfficientNet-B0,0.1,Internal test,479,82.9,90,91.9,90.2,8.1
+EfficientNet-B0,0.1,BraTS,1073,44.4,90,56.5,78.4,43.5
+EfficientNet-B0,0.1,BDNeuro (unique),227,78.0,90,87.7,88.9,12.3
+ConvNeXt-Tiny,0.05,Internal test,479,95.8,95,94.2,96.7,5.8
+ConvNeXt-Tiny,0.05,BraTS,1073,84.1,95,92.3,86.4,7.7
+ConvNeXt-Tiny,0.05,BDNeuro (unique),227,87.7,95,91.2,93.2,8.8
+ConvNeXt-Tiny,0.1,Internal test,479,94.2,90,94.6,96.2,5.4
+ConvNeXt-Tiny,0.1,BraTS,1073,80.7,90,91.0,85.7,9.0
+ConvNeXt-Tiny,0.1,BDNeuro (unique),227,78.9,90,82.8,93.6,17.2
+DeiT-Small,0.05,Internal test,479,94.8,95,92.1,95.0,7.9
+DeiT-Small,0.05,BraTS,1073,80.4,95,92.5,80.6,7.5
+DeiT-Small,0.05,BDNeuro (unique),227,91.2,95,92.1,91.9,7.9
+DeiT-Small,0.1,Internal test,479,93.5,90,93.1,94.4,6.9
+DeiT-Small,0.1,BraTS,1073,76.2,90,90.7,80.5,9.3
+DeiT-Small,0.1,BDNeuro (unique),227,85.9,90,89.4,90.6,10.6

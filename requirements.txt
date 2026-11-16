@@ -1,0 +1,6 @@
+# Versions used for the paper (Kaggle, NVIDIA T4, November 2026)
+torch==2.11.0
+timm==1.0.29
+# Other packages: numpy, pandas, scipy, scikit-learn, opencv-python, pillow, matplotlib, h5py,
+# imagehash, open_clip_torch (BiomedCLIP features only), nibabel (BraTS slice extraction), lxml.
+# Figures: Node.js with playwright (figures/render.js).
